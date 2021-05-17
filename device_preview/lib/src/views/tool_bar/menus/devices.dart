@@ -259,7 +259,7 @@ class CustomDevicePanel extends StatelessWidget {
             },
             min: 128,
             max: 2688,
-            divisions: 20,
+            divisions: 2688 - 128,
           ),
         if (customDevice != null)
           SliderRowTile(
@@ -278,7 +278,7 @@ class CustomDevicePanel extends StatelessWidget {
             },
             min: 128,
             max: 2688,
-            divisions: 20,
+            divisions: 2688 - 128,
           ),
         SectionHeader(
           title: 'Safe areas',
